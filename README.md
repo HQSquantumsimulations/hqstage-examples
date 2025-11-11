@@ -17,8 +17,8 @@ HQStage examples and modules will be available for **three use cases**:
 - Electron spectroscopy
 - Magnetic response
 
-As of now we have published the nuclear magnetic resonance (NMR) use case.
-Electron spectroscopy and magnetic resonance use cases will be published later in 2025.
+As of now we have published the nuclear magnetic resonance (NMR) and Electron spectroscopy use case.
+Magnetic resonance use cases will be published later in 2025.
 [Read more ...](https://docs.cloud.quantumsimulations.de/use_cases.html)
 
 ### Nuclear magnetic resonance
@@ -28,7 +28,14 @@ To get a feeling for NMR spectroscopy [try out](https://cloud.quantumsimulations
 product [HQSpectrum](https://quantumsimulations.de/hqspectrum).
 
 You find a set of examples for NMR simulations using `HQS Spectrum Tools` on conventional and quantum computers in the [hqs_spectrum_tools](https://github.com/HQSquantumsimulations/hqstage-examples/tree/main/hqs_spectrum_tools) folder of this repository.
-Learn more about our NMR examples at <https://docs.dev.cloud.quantumsimulations.de/hqs-spectrum-tools/examples.html>.
+Learn more about our NMR examples in the [user documentation](https://docs.dev.cloud.quantumsimulations.de/hqs-spectrum-tools/examples.html).
+
+### Electron spectroscopy
+
+Electron spectroscopy measures excited states of molecules. Depending on the setup, it can probe purely electronic excitations, vibrational structure on top of them, or their coupling. A particularly important quantity that these measurements access is the singlet–triplet energy splitting ΔEST between the lowest singlet (S1) and triplet (T1) states. In what follows we focus on accurately predicting ΔEST for realistic molecules.
+
+You find a set of examples for Electron spectroscopy simulations using [`HQS Quantum Solver`](https://docs.cloud.quantumsimulations.de/hqs-quantum-solvers/index.html) on conventional computers in the [hqs_quantum solver](https://github.com/HQSquantumsimulations/hqstage-examples/tree/main/hqs_quantum_solver) folder of this repository.
+Learn more about our quantum solver and electron spectroscopy examples in the [user documentation](https://docs.cloud.quantumsimulations.de/hqs-quantum-solvers/index.html).
 
 ## Try HQStage in the cloud
 
